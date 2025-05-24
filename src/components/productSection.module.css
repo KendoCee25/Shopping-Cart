@@ -1,0 +1,143 @@
+.products-section {
+    background-color: #f7fafc;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section-content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.section-title1 {
+    color: #718096; 
+    text-align: center; 
+}
+
+@media (max-width:600px) {
+    .section-title1 {
+        font-size: 0px;
+    }
+}
+
+.section-title2{
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .section-title2 span{
+        display: block;
+        margin-top: 5px;
+    text-align: center;
+}
+}
+
+.section-description {
+    color: #718096; 
+    text-align: center; 
+    margin-bottom: 2rem; 
+}
+
+@media (max-width:600px) {
+    .section-description span{
+        display: block;
+    color: #718096; 
+    text-align: center;
+    margin-bottom: 2rem; 
+}
+}
+
+.load-more-button {
+    background-color: #fafbfc; 
+    color: #3182ce; 
+    font-weight: 700; 
+    padding: 0.5rem 1rem; 
+    border-radius: 0.25rem; 
+    border: 1px solid #3182ce;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.load-more-button:hover {
+    background-color: #2b6cb0;
+    color: #fafbfc;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 640px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 200px;
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.current-price {
+  font-weight: bold;
+  color: #2d8fdd;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.old-price {
+  
+  color: #888;
+}
+
+.load-more-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.load-more-button {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  color: #2d8fdd;
+  background-color: white;
+  border: 1px solid #2d8fdd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-button:hover {
+  background-color: #1b6fb8;
+  color: #fff;
+}

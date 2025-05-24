@@ -1,0 +1,157 @@
+
+
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    width: 100%;
+    background-color: #f7fafc; 
+    font-family: 'Inter', sans-serif; 
+}
+
+@media (max-width:600px) {
+    .app-container {
+    text-align: center;
+    background-color: #f7fafc; 
+    font-family: 'Inter', sans-serif; 
+    }
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 5rem;
+    background-color: rgb(12, 85, 10);
+    color: #fff;
+    font-size: 10px;
+}
+
+@media (max-width:600px) {
+    .header{
+     display: none;
+    font-size: 0px;
+}
+}
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width:600px) {
+    .header2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+}
+
+.header2 .p1{
+    margin-right: 15px;
+}
+
+.follow svg{
+    padding-left: 10px;
+    
+}
+
+
+
+/* Header Section */
+.main-header {
+    background-color: #ffffff;
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+}
+
+.header-content-wrapper {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width:600px) {
+    .header-content-wrapper {
+    display: flex; /* flex */
+    
+  
+}
+}
+
+.site-logo {
+    font-size: 1.5rem; 
+    font-weight: 600; 
+    color: #2d3748; 
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+}
+
+@media (max-width:600px) {
+    .nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+}
+}
+
+.nav-link {
+    color: #718096; 
+    text-decoration: none;
+    transition-property: all; 
+    transition-duration: 0.3s; 
+}
+
+
+
+.nav-link:hover {
+    color: #3182ce; 
+}
+
+.header-actions {
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+}
+
+@media (max-width:600px) {
+    .header-actions .nav-links{
+        display: none;
+    }
+}
+
+@media screen {
+    
+}
+
+.icon {
+    color: #718096; 
+}
+
+.icon:hover {
+    color: #3182ce; 
+}
