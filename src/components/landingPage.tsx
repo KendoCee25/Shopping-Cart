@@ -1,5 +1,3 @@
-
-import React from "react";
 import classes from '../components/landingPage.module.css'
 import Section2 from "./section2";
 import ProductSection from "./productSection";
