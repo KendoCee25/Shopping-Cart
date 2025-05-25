@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from 'react';
 import { useGetProductsQuery } from '../features/productsApi';
 import classes from '../components/productSection.module.css'
