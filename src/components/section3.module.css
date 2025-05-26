@@ -20,7 +20,14 @@
 
 @media (max-width:600px) {
     .section3 img{
-   width: 100%;
+    width: 10px;
+}
+}
+
+@media (max-width:600px) {
+    .section3 .section3-grid img{
+   width: 100px;
+   
 }
 }
 
@@ -34,10 +41,10 @@
 
 @media (max-width:600px) {
     .section3-grid{
-    display: flex;
-    flex-direction: column;
-    column-gap: 10px;
-    row-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
     
 }
 }
