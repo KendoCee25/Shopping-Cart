@@ -5,7 +5,7 @@
     margin-top: 100px;
     text-align: center;
     position: relative;
-    
+    overflow: hidden;
 
 }
 
@@ -18,6 +18,17 @@
     right: 40%;
     top: 78%;
 }
+
+@media (max-width:600px) {
+.btn{
+    position: absolute;
+    right: 20%;
+    top: 85%;
+}
+}
+
+
+
 .design{
      position: absolute;
      top: 25%;
@@ -34,12 +45,35 @@
     font-size: 40px;
 }
 
+@media (max-width:600px){
+    .design h1{
+    font-size: 30px;
+}
+}
+
+@media (max-width:600px){
+    .design p{
+    position: absolute;
+     top: 110%;
+     right: 5%;
+}
+}
+
 .design h4 {
     color: #23A6F0;
 }
 
 .design h2{
     color: #41764d;
+}
+
+@media (max-width:600px){
+    .design h2{
+    color: #41764d;
+    position: absolute;
+     top: 90%;
+     left: 34%;
+}
 }
 
 
@@ -50,4 +84,16 @@
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
+}
+
+@media (max-width:600px) {
+     button{
+    padding: 5px;
+    text-align: center;
+    background-color: #23A6F0;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
 }
